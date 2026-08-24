@@ -1,0 +1,49 @@
+{
+  "slug": "dentists",
+  "category_name": "Dentists & Dental Clinics",
+  "offer_catalog": [
+    { "id": "cat_den_001", "name": "Scaling and Polishing", "typical_price_inr": 800 },
+    { "id": "cat_den_002", "name": "Dental Checkup & X-Ray", "typical_price_inr": 500 },
+    { "id": "cat_den_003", "name": "Teeth Whitening", "typical_price_inr": 4500 }
+  ],
+  "voice": {
+    "tone": "clinical, peer-oriented, respectful, professional, evidence-backed",
+    "vocab_allowed": ["clinical", "protocol", "caries", "fluoride", "recall", "appointment", "consultation", "retention", "hygiene", "treatment"],
+    "taboos": ["super cheap", "rock bottom", "crazy discount", "unbelievable deal", "guaranteed cure"]
+  },
+  "peer_stats": {
+    "median_views_30d": 1800,
+    "median_calls_30d": 24,
+    "median_ctr": 0.035,
+    "median_recall_interval_days": 180
+  },
+  "digest": [
+    {
+      "id": "d_2026W17_jida_fluoride",
+      "title": "JIDA Fluoride Recall Study (Oct 2025)",
+      "summary": "2,100-patient trial showed 3-month fluoride recall cuts caries recurrence 38% better than 6-month in high-risk adults.",
+      "relevance_keywords": ["high_risk_adults", "fluoride", "recall"]
+    },
+    {
+      "id": "d_2026W17_dci_radiograph",
+      "title": "DCI Digital Radiograph Compliance Notification",
+      "summary": "Mandatory audit trail for digital radiographs effective Dec 15, 2026.",
+      "relevance_keywords": ["compliance", "xray", "radiograph"]
+    },
+    {
+      "id": "d_2026W17_ida_webinar",
+      "title": "IDA Clinical Excellence Webinar",
+      "summary": "2 CDE credits on advanced aesthetic aligners, free for members on May 2.",
+      "relevance_keywords": ["cde", "webinar", "aligners"]
+    }
+  ],
+  "patient_content_library": [
+    { "id": "pc_001", "topic": "Why biannual cleanings matter", "format": "whatsapp_bullet" },
+    { "id": "pc_002", "topic": "Fluoride varnish for sensitivity", "format": "whatsapp_bullet" }
+  ],
+  "seasonal_beats": [
+    { "month": "May", "theme": "Summer Dental Hygiene & Kids Vacation Checkups" },
+    { "month": "October", "theme": "Pre-Festive Smile Makeover" }
+  ],
+  "trend_signals": ["clear_aligner_demand_+35%", "pediatric_cavity_screening_+20%"]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "restaurants",
+  "category_name": "Restaurants, Cafes & Quick Service",
+  "offer_catalog": [
+    { "id": "cat_res_001", "name": "Lunch Thali Combo", "typical_price_inr": 199 },
+    { "id": "cat_res_002", "name": "Family Dinner Platter", "typical_price_inr": 899 },
+    { "id": "cat_res_003", "name": "BOGO Match Day Special", "typical_price_inr": 499 }
+  ],
+  "voice": {
+    "tone": "operator-oriented, energetic, clear, high-velocity, commercially pragmatic",
+    "vocab_allowed": ["covers", "orders", "footfall", "ticket size", "match night", "thali", "delivery", "peak hours", "specials", "table turnover"],
+    "taboos": ["overcomplicated", "clinical", "boring academic"]
+  },
+  "peer_stats": {
+    "median_views_30d": 6500,
+    "median_calls_30d": 70,
+    "median_ctr": 0.028,
+    "median_repeat_customer_rate": 0.35
+  },
+  "digest": [
+    {
+      "id": "d_2026W17_ipl_dining",
+      "title": "Match Night Delivery Spike",
+      "summary": "Evening delivery orders increase 45% on match nights between 7:30 PM and 10 PM.",
+      "relevance_keywords": ["ipl", "match_night", "delivery", "combos"]
+    }
+  ],
+  "patient_content_library": [],
+  "seasonal_beats": [
+    { "month": "April-May", "theme": "IPL Match Screenings & Night Combos" },
+    { "month": "December", "theme": "Year-End Parties & Family Dinners" }
+  ],
+  "trend_signals": ["corporate_bulk_lunch_+30%", "weekend_brunch_+18%"]
+}

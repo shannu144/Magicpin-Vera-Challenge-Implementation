@@ -1,0 +1,34 @@
+{
+  "slug": "salons",
+  "category_name": "Salons, Spas & Beauty Parlours",
+  "offer_catalog": [
+    { "id": "cat_sal_001", "name": "Classic Haircut & Styling", "typical_price_inr": 350 },
+    { "id": "cat_sal_002", "name": "Keratin & Hair Spa", "typical_price_inr": 1500 },
+    { "id": "cat_sal_003", "name": "Bridal Makeup Trial", "typical_price_inr": 2500 }
+  ],
+  "voice": {
+    "tone": "warm, friendly, practical, aesthetic, trend-focused",
+    "vocab_allowed": ["styling", "pamper", "glow", "hair spa", "balayage", "bridal", "refresh", "slots", "trend", "appointment"],
+    "taboos": ["clinical", "cure", "pathology", "disease"]
+  },
+  "peer_stats": {
+    "median_views_30d": 3200,
+    "median_calls_30d": 45,
+    "median_ctr": 0.042,
+    "median_visit_frequency_days": 45
+  },
+  "digest": [
+    {
+      "id": "d_2026W17_bridal_trend",
+      "title": "Summer Wedding Hair & Skin Trends",
+      "summary": "Bridal trial searches up 28% in metro localities; packages with pre-wedding skin prep converting 2x higher.",
+      "relevance_keywords": ["bridal", "skin_prep", "packages"]
+    }
+  ],
+  "patient_content_library": [],
+  "seasonal_beats": [
+    { "month": "April-May", "theme": "Summer Hair Care & Detan Treatments" },
+    { "month": "October-November", "theme": "Wedding Season Bridal Packages" }
+  ],
+  "trend_signals": ["balayage_touchups_+40%", "organic_facials_+25%"]
+}

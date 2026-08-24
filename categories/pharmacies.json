@@ -1,0 +1,36 @@
+{
+  "slug": "pharmacies",
+  "category_name": "Pharmacies, Chemists & Healthcare Stores",
+  "offer_catalog": [
+    { "id": "cat_phr_001", "name": "Free Home Delivery above ₹499", "typical_price_inr": 0 },
+    { "id": "cat_phr_002", "name": "Senior Citizen 15% OFF", "typical_price_inr": 0 },
+    { "id": "cat_phr_003", "name": "Monthly Chronic Refill Subscription", "typical_price_inr": 0 }
+  ],
+  "voice": {
+    "tone": "trustworthy, precise, compliant, caring, safety-first",
+    "vocab_allowed": ["compliance", "refill", "delivery", "batch", "recall", "dosage", "prescription", "chronic", "patient care", "adherence", "verification"],
+    "taboos": ["unverified cures", "risky advice", "wild discounts on schedule H"]
+  },
+  "peer_stats": {
+    "median_views_30d": 1500,
+    "median_calls_30d": 35,
+    "median_ctr": 0.040,
+    "median_repeat_refill_rate": 0.60
+  },
+  "digest": [
+    {
+      "id": "d_2026W17_atorvastatin_recall",
+      "title": "CDSCO Batch Recall: Atorvastatin",
+      "summary": "Voluntary recall on batches AT2024-1102 and AT2024-1108 by MfrZ due to packaging seal inconsistency.",
+      "relevance_keywords": ["recall", "atorvastatin", "compliance", "batch"]
+    }
+  ],
+  "patient_content_library": [
+    { "id": "pc_phr_001", "topic": "Managing Chronic Medication Adherence", "format": "whatsapp_bullet" }
+  ],
+  "seasonal_beats": [
+    { "month": "April-June", "theme": "Summer Hydration, Sunscreen & ORS Demand Shift" },
+    { "month": "July-September", "theme": "Monsoon Vector & Antifungal Care" }
+  ],
+  "trend_signals": ["ors_demand_+40%", "sunscreen_+38%", "antifungal_+45%"]
+}

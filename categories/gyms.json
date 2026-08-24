@@ -1,0 +1,34 @@
+{
+  "slug": "gyms",
+  "category_name": "Fitness Centers, Gyms & Yoga Studios",
+  "offer_catalog": [
+    { "id": "cat_gym_001", "name": "3-Day Free Trial Pass", "typical_price_inr": 0 },
+    { "id": "cat_gym_002", "name": "Monthly Unlimited Membership", "typical_price_inr": 1800 },
+    { "id": "cat_gym_003", "name": "12-Session Personal Training Pack", "typical_price_inr": 6000 }
+  ],
+  "voice": {
+    "tone": "coaching, motivational, disciplined, action-oriented, supportive",
+    "vocab_allowed": ["fitness", "training", "goals", "retention", "trial", "membership", "consistency", "session", "strength", "wellness", "coach"],
+    "taboos": ["super medical jargon", "lazy", "hopeless"]
+  },
+  "peer_stats": {
+    "median_views_30d": 1200,
+    "median_calls_30d": 20,
+    "median_ctr": 0.048,
+    "median_churn_rate": 0.08
+  },
+  "digest": [
+    {
+      "id": "d_2026W17_summer_camp_fitness",
+      "title": "Kids & Teens Summer Fitness Surge",
+      "summary": "Youth fitness and yoga summer camp queries surge 65% in April-May.",
+      "relevance_keywords": ["kids_yoga", "summer_camp", "youth_fitness"]
+    }
+  ],
+  "patient_content_library": [],
+  "seasonal_beats": [
+    { "month": "January", "theme": "New Year Resolutions Kickstart" },
+    { "month": "April-June", "theme": "Summer Camps & Win-back Campaigns" }
+  ],
+  "trend_signals": ["morning_6am_slots_full", "pilates_demand_+50%"]
+}
